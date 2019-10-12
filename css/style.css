@@ -728,8 +728,7 @@ Features section
  ---------------------*/
 
 .features-section {
-	padding-top: 65px;
-	padding-bottom: 70px;
+	padding: 20px;
 	background: #f2f3f4;
 }
 
@@ -761,7 +760,7 @@ Features section
 	text-align: center;
 	padding: 50px 15px 40px;
 	background: #fff;
-	min-height: 373px;
+	min-height: 650px;
 }
 
 .feature-box::after,
@@ -778,8 +777,8 @@ Features section
 	height: 100%;
 	left: 50%;
 	top: 0;
-	border-bottom: 2px solid #12c7b8;
-	border-top: 2px solid #12c7b8;
+	border-bottom: 2px solid #398C82;
+	border-top: 2px solid #398C82;
 }
 
 .feature-box::before {
@@ -787,8 +786,8 @@ Features section
 	height: 0%;
 	top: 50%;
 	left: 0;
-	border-left: 2px solid #12c7b8;
-	border-right: 2px solid #12c7b8;
+	border-left: 2px solid #398C82;
+	border-right: 2px solid #398C82;
 }
 
 .feature-box:hover::after {
@@ -1800,4 +1799,10 @@ Responsive
 	.location-tab .play-btn img {
 		width: 22px;
 	}
+}
+.mb8{
+	margin-bottom: 8px
+}
+.mt20{
+	margin-top: 20px
 }
