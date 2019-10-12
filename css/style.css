@@ -415,23 +415,7 @@ Hero section
 	text-align: right;
 }
 
-.hero-slider .owl-nav button.owl-next,
-.hero-slider .owl-nav button.owl-prev {
-	width: 84px;
-	height: 84px;
-	display: -webkit-inline-box;
-	display: -ms-inline-flexbox;
-	display: inline-flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	background: #12c7b8;
-	color: #fff;
-	font-size: 40px;
-}
+
 
 .hero-slider .owl-nav button.owl-next {
 	background: #fff;
@@ -926,7 +910,7 @@ Other Pages
 }
 
 /* ----------------
-About page
+ page
  ---------------------*/
 
 .about-text {
@@ -939,37 +923,6 @@ About page
 	font-weight: 300;
 	margin-bottom: 30px;
 	line-height: 1.5;
-}
-
-.about-slider .owl-nav {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 7;
-	text-align: right;
-}
-
-.about-slider .owl-nav button.owl-next,
-.about-slider .owl-nav button.owl-prev {
-	width: 84px;
-	height: 84px;
-	display: -webkit-inline-box;
-	display: -ms-inline-flexbox;
-	display: inline-flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	background: #12c7b8;
-	color: #fff;
-	font-size: 40px;
-}
-
-.about-slider .owl-nav button.owl-next {
-	background: #fff;
-	color: #12c7b8;
 }
 
 .milestone-warp {
@@ -1638,19 +1591,7 @@ Responsive
 		font-size: 50px;
 		left: calc(50% - 25px);
 	}
-	.design-slider .owl-nav button.owl-next,
-	.design-slider .owl-nav button.owl-prev,
-	.property-features-slider .owl-nav button.owl-next,
-	.property-features-slider .owl-nav button.owl-prev,
-	.about-slider .owl-nav button.owl-next,
-	.about-slider .owl-nav button.owl-prev,
-	.hero-slider .owl-nav button.owl-next,
-	.hero-slider .owl-nav button.owl-prev {
-		margin-top: -23px;
-		width: 46px;
-		height: 46px;
-		font-size: 24px;
-	}
+
 	.features-icon-item {
 		-webkit-box-flex: 0;
 		-ms-flex: 0 0 20%;
